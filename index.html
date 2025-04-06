@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Coffee Menu </title>
+
+    <style>
+        .html {
+            scroll-behavior: smooth;
+        }
+
+        @keyframes appear {
+
+            from {
+                opacity: 0;
+                scale: 0.5;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        .effect-scorlling {
+            animation: appear 5s linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+    </style>
+</head>
+
+<body class=" bg-gray-100 min-h-screen p-8">
+    <div class="max-w-3xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-md p-6 flex flex-col sm:flex-row gap-6 items-start effect-scorlling">
+            <!-- Text Section -->
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Cappuccino</h2>
+                <div class="flex items-center mb-2">
+                    <div class="flex text-amber-500 text-lg space-x-1">
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(9)</span>
+                </div>
+                <div class="text-xl font-semibold text-gray-900 mb-3">₹255</div>
+                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                    Rich flavors of bold espresso smoothly blended with steamed milk and topped with a layer of foam
+                    <span class="text-gray-500">...more</span>
+                </p>
+                <div class="flex gap-3 mt-2">
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-price-tag-line text-xl"></i>
+                    </button>
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-share-forward-fill text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full sm:w-64 shrink-0 relative">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600"
+                    alt="Cappuccino" class="w-full h-64 object-cover rounded-2xl" />
+
+                <!-- Overlay Button -->
+                <button
+                    class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white text-red-500 font-semibold py-2 px-8 sm:py-3 sm:px-12 rounded-full shadow-lg hover:bg-red-50 transition-colors text-sm sm:text-base">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            class="bg-white rounded-3xl shadow-md p-6 mt-4 flex flex-col sm:flex-row gap-6 items-start effect-scorlling">
+            <!-- Text Section -->
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Cappuccino</h2>
+                <div class="flex items-center mb-2">
+                    <div class="flex text-amber-500 text-lg space-x-1">
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(9)</span>
+                </div>
+                <div class="text-xl font-semibold text-gray-900 mb-3">₹255</div>
+                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                    Rich flavors of bold espresso smoothly blended with steamed milk and topped with a layer of foam
+                    <span class="text-gray-500">...more</span>
+                </p>
+                <div class="flex gap-3 mt-2">
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-price-tag-line text-xl"></i>
+                    </button>
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-share-forward-fill text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full sm:w-64 shrink-0 relative">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600"
+                    alt="Cappuccino" class="w-full h-64 object-cover rounded-2xl" />
+
+                <!-- Overlay Button -->
+                <button
+                    class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white text-red-500 font-semibold py-2 px-8 sm:py-3 sm:px-12 rounded-full shadow-lg hover:bg-red-50 transition-colors text-sm sm:text-base">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            class="bg-white rounded-3xl shadow-md p-6 mt-4 flex flex-col sm:flex-row gap-6 items-start effect-scorlling">
+            <!-- Text Section -->
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Cappuccino</h2>
+                <div class="flex items-center mb-2">
+                    <div class="flex text-amber-500 text-lg space-x-1">
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(9)</span>
+                </div>
+                <div class="text-xl font-semibold text-gray-900 mb-3">₹255</div>
+                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                    Rich flavors of bold espresso smoothly blended with steamed milk and topped with a layer of foam
+                    <span class="text-gray-500">...more</span>
+                </p>
+                <div class="flex gap-3 mt-2">
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-price-tag-line text-xl"></i>
+                    </button>
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-share-forward-fill text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full sm:w-64 shrink-0 relative">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600"
+                    alt="Cappuccino" class="w-full h-64 object-cover rounded-2xl" />
+
+                <!-- Overlay Button -->
+                <button
+                    class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white text-red-500 font-semibold py-2 px-8 sm:py-3 sm:px-12 rounded-full shadow-lg hover:bg-red-50 transition-colors text-sm sm:text-base">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            class="bg-white rounded-3xl shadow-md p-6 mt-4 flex flex-col sm:flex-row gap-6 items-start effect-scorlling">
+            <!-- Text Section -->
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Cappuccino</h2>
+                <div class="flex items-center mb-2">
+                    <div class="flex text-amber-500 text-lg space-x-1">
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(9)</span>
+                </div>
+                <div class="text-xl font-semibold text-gray-900 mb-3">₹255</div>
+                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                    Rich flavors of bold espresso smoothly blended with steamed milk and topped with a layer of foam
+                    <span class="text-gray-500">...more</span>
+                </p>
+                <div class="flex gap-3 mt-2">
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-price-tag-line text-xl"></i>
+                    </button>
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-share-forward-fill text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full sm:w-64 shrink-0 relative">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600"
+                    alt="Cappuccino" class="w-full h-64 object-cover rounded-2xl" />
+
+                <!-- Overlay Button -->
+                <button
+                    class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white text-red-500 font-semibold py-2 px-8 sm:py-3 sm:px-12 rounded-full shadow-lg hover:bg-red-50 transition-colors text-sm sm:text-base">
+                    Add
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            class="bg-white rounded-3xl shadow-md p-6 mt-4 flex flex-col sm:flex-row gap-6 items-start effect-scorlling">
+            <!-- Text Section -->
+            <div class="flex-1 w-full">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Cappuccino</h2>
+                <div class="flex items-center mb-2">
+                    <div class="flex text-amber-500 text-lg space-x-1">
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <span class="text-gray-600 text-sm ml-2">(9)</span>
+                </div>
+                <div class="text-xl font-semibold text-gray-900 mb-3">₹255</div>
+                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                    Rich flavors of bold espresso smoothly blended with steamed milk and topped with a layer of foam
+                    <span class="text-gray-500">...more</span>
+                </p>
+                <div class="flex gap-3 mt-2">
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-price-tag-line text-xl"></i>
+                    </button>
+                    <button class="p-2 border border-gray-300 rounded-full text-gray-600 hover:bg-gray-100 transition">
+                        <i class="ri-share-forward-fill text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full sm:w-64 shrink-0 relative">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600"
+                    alt="Cappuccino" class="w-full h-64 object-cover rounded-2xl" />
+
+                <!-- Overlay Button -->
+                <button
+                    class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white text-red-500 font-semibold py-2 px-8 sm:py-3 sm:px-12 rounded-full shadow-lg hover:bg-red-50 transition-colors text-sm sm:text-base">
+                    Add
+                </button>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>
